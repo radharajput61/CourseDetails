@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+  >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Course Type"
+        android:textColor="@color/purple_700"
+        android:layout_marginLeft="5dp"
+        android:textSize="25dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tvupper"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Upper Course"
+        android:gravity="center"
+        android:drawableLeft="@drawable/ic_baseline_menu_book_24"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:padding="15dp"
+        android:background="@drawable/border_slik"
+        android:textColor="@color/black"
+        />
+    <TextView
+        android:id="@+id/remain"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Remain Course"
+        android:gravity="center"
+        android:drawableLeft="@drawable/ic_baseline_menu_book_24"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:padding="15dp"
+        android:background="@drawable/border_slik"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:id="@+id/topcourse"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Top Course"
+        android:gravity="center"
+        android:drawableLeft="@drawable/ic_baseline_menu_book_24"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:padding="15dp"
+        android:background="@drawable/border_slik"
+        android:textColor="@color/black"
+        />
+
+
+</LinearLayout>
